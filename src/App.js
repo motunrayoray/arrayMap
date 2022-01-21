@@ -1,6 +1,7 @@
 
 import React from "react";
-function 
+function App() {
+
 // Declared an array of items
 const names = [
 	'Ada Ehi',

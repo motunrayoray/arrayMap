@@ -3,7 +3,7 @@ import React from "react";
 function App() {
 
 // Declared an array of items
-const names = [
+const name = [
 	'Ada Ehi',
 'Bola Are',
 'Cobhams Asuquo',
@@ -55,8 +55,8 @@ return <>
 	{
 	/* This maps each array item to a div adds
 	the style declared above and return it */
-	names.map(names => <div key={names}
-			style={styles}>{names}</div>)
+	name.map(name => <div key={name}
+			style={styles}>{name}</div>)
 	}
 </>;
 }

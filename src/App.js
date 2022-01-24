@@ -43,17 +43,20 @@ const name = [
 // styling for the items
 const styles = {
 	backgroundColor: 'white',
-	width: '100%',
+	width: '50%',
 	height: '50%',
-	marginBottom: '10px',
+	marginLeft: 'auto',
+    marginRight: 'auto',
+	textAlign: 'center',
+    marginBottom: '10px',
 	padding: '10px',
 	color: 'brown',
-	boxShadow: 'rgb(0,0,0,0.44) 0px 5px 5px',
+	boxShadow: 'rgb(0,0,0,0.44) 0px 5px 5px'
 };
 
 return <>
 	{
-	/* This maps each array item to a div adds
+	/* This maps each array item to a div and adds
 	the style declared above and return it */
 	name.map(name => <div key={name}
 			style={styles}>{name}</div>)
